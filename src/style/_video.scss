@@ -1,0 +1,27 @@
+.second-wrapper {
+  max-width: 950px;
+  max-height: 534px;
+  margin: 0 auto;
+}
+
+.player-wrapper {
+  margin-top: 3vh;
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+
+  .loadingLogo {
+    img {
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top: 40%;
+      left: 40%;
+    }
+  }
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

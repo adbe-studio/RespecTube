@@ -1,0 +1,34 @@
+.container {
+  background-color: $dark-background;
+  display: flex;
+  justify-content: center;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 90%;
+    max-width: 1200px;
+    height: 10vh;
+
+    .logo {
+      pointer-events: none;
+    }
+
+    i {
+      color: #ff0000;
+      font-size: 2rem;
+    }
+
+    .signIn,
+    .signOut,
+    .register {
+      cursor: pointer;
+    }
+    .signIn,
+    .signOut {
+      margin-right: 20px;
+    }
+  }
+}

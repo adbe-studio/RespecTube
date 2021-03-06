@@ -1,0 +1,21 @@
+.commentAlert {
+  //   position: absolute;
+  //   top: 500px;
+  pointer-events: none;
+  width: 80%;
+  max-width: 380px;
+  padding: 10px 0;
+  //   background-color: red;
+  p {
+    i {
+      margin-right: 5px;
+    }
+    color: red;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+}
+
+.hide {
+  display: none;
+}

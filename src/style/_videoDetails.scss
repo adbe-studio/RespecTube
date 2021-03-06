@@ -1,0 +1,48 @@
+.videoDetails,
+.videoDescription {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+  width: 100%;
+  max-width: 950px;
+  color: $darker-font;
+}
+
+.videoTitle {
+  color: $white-color;
+  font-size: $mid-font-size;
+  //   margin-top: 20px;
+  margin-left: 10px;
+}
+
+.middleLine {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+  span {
+    padding: 0px 15px;
+  }
+  i {
+    padding: 0px 5px;
+  }
+}
+
+.videoInfoWrapper {
+  display: flex;
+  justify-content: center;
+  //   flex-direction: column;
+}
+
+.videoDescriptionWrapper {
+  display: flex;
+  justify-content: center;
+  .textDescription {
+    border-top: solid 1px #474e68;
+    border-bottom: solid 1px #474e68;
+    padding: 15px 10px;
+    overflow-y: scroll;
+    // margin: 10px 0;
+  }
+}

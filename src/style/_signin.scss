@@ -1,0 +1,54 @@
+.formBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.233);
+  box-shadow: 5px 8px 10px rgba(255, 255, 255, 0.336);
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.432);
+
+  h1 {
+    justify-self: flex-start;
+    font-weight: normal;
+    position: relative;
+    bottom: 20px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    .userNameInput {
+      padding: 10px 10px;
+      background: none;
+      color: white;
+      &:hover,
+      &:focus {
+        background: black;
+      }
+    }
+  }
+  button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: none;
+    border: solid 1px #474e68;
+    cursor: pointer;
+    &:hover {
+      transition: ease 0.3s;
+      background: $dark-background;
+    }
+  }
+}
