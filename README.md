@@ -4,7 +4,7 @@ RespecTube is a React app that is imitating a video streaming website but with a
 The purpose of the app is for me to demonstrate myability to work with APIs within a well designed App.
 
 ## Youtube API
-I used the Youtube Data v3 API to get the video details (Description, number of views, video title, etv...)
+I used the Youtube Data v3 API to get the video details (Description, number of views, video title, etc...)
 <br> API Documentation: https://developers.google.com/youtube/v3/guides/implementation/videos
 
 ## ParallelDots API
