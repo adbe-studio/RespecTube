@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/respectube/static/css/main.b5d7aa5e.chunk.css",
-    "main.js": "/respectube/static/js/main.1fe8904a.chunk.js",
-    "main.js.map": "/respectube/static/js/main.1fe8904a.chunk.js.map",
-    "runtime-main.js": "/respectube/static/js/runtime-main.dc775626.js",
-    "runtime-main.js.map": "/respectube/static/js/runtime-main.dc775626.js.map",
-    "static/js/2.5432f920.chunk.js": "/respectube/static/js/2.5432f920.chunk.js",
-    "static/js/2.5432f920.chunk.js.map": "/respectube/static/js/2.5432f920.chunk.js.map",
-    "index.html": "/respectube/index.html",
-    "static/css/main.b5d7aa5e.chunk.css.map": "/respectube/static/css/main.b5d7aa5e.chunk.css.map",
-    "static/js/2.5432f920.chunk.js.LICENSE.txt": "/respectube/static/js/2.5432f920.chunk.js.LICENSE.txt",
-    "static/media/loading.643ca93f.gif": "/respectube/static/media/loading.643ca93f.gif"
+    "main.css": "/RespecTube/static/css/main.b5d7aa5e.chunk.css",
+    "main.js": "/RespecTube/static/js/main.1fe8904a.chunk.js",
+    "main.js.map": "/RespecTube/static/js/main.1fe8904a.chunk.js.map",
+    "runtime-main.js": "/RespecTube/static/js/runtime-main.b1cce859.js",
+    "runtime-main.js.map": "/RespecTube/static/js/runtime-main.b1cce859.js.map",
+    "static/js/2.5432f920.chunk.js": "/RespecTube/static/js/2.5432f920.chunk.js",
+    "static/js/2.5432f920.chunk.js.map": "/RespecTube/static/js/2.5432f920.chunk.js.map",
+    "index.html": "/RespecTube/index.html",
+    "static/css/main.b5d7aa5e.chunk.css.map": "/RespecTube/static/css/main.b5d7aa5e.chunk.css.map",
+    "static/js/2.5432f920.chunk.js.LICENSE.txt": "/RespecTube/static/js/2.5432f920.chunk.js.LICENSE.txt",
+    "static/media/loading.643ca93f.gif": "/RespecTube/static/media/loading.643ca93f.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc775626.js",
+    "static/js/runtime-main.b1cce859.js",
     "static/js/2.5432f920.chunk.js",
     "static/css/main.b5d7aa5e.chunk.css",
     "static/js/main.1fe8904a.chunk.js"
