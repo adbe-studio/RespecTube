@@ -1,11 +1,10 @@
 import axios from 'axios';
 import qs from 'qs';
-import config from './config';
 
 const postTextToApi = async (commentInput) => {
   const data = qs.stringify({
     text: commentInput,
-    api_key: config.ParallelDots_API_KEY,
+    api_key: process.env.REACT_APP_ParallelDots_API_KEY,
   });
   const params = {
     method: 'post',

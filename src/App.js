@@ -10,7 +10,6 @@ import axios from 'axios';
 import { commentHistory } from './comments';
 import Signin from './components/Signin';
 import { DateTime } from 'luxon';
-import config from './config';
 
 function App() {
   const [isSignedin, setIsSignedIn] = useState(false);
@@ -23,7 +22,7 @@ function App() {
 
   useEffect(() => {
     const videoId = 'zABG-oJzkJ0';
-    const apiKey = config.YT_API_KEY;
+    const apiKey = process.env.REACT_APP_YT_API_KEY;
     const fetchUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&part=statistics&id=${videoId}&key=${apiKey}`;
 
     const getVideoData = async () => {
