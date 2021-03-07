@@ -1,7 +1,7 @@
 # RespecTube
 
 RespecTube is a React app that is imitating a video streaming website but with an abuse-detection system that blocks toxic/inappropriate comments. <br>
-The purpose of the app is for me to demonstrate myability to work with APIs within a well designed App.
+The purpose of the app is for me to demonstrate my ability to work with APIs within a well designed App.
 
 ## Youtube API
 I used the Youtube Data v3 API to get the video details (Description, number of views, video title, etc...)
