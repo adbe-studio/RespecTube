@@ -5,7 +5,7 @@ The purpose of the app is for me to demonstrate my ability to work with APIs wit
 
 ### How to test out the app
 Scroll down to the comment section, play out with the API. <br>
-To try out the offensive detection: "This music is garbage !" (you can be more imaginative here 😁)
+To try out the offensive detection, try to comment: "This music is garbage !" (you can be more imaginative here 😁)
 
 ## APIs Description
 ### Youtube API
