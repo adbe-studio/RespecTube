@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# RespecTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RespecTube is a React app that is imitating a video streaming website but with an abuse-detection system that blocks toxic/inappropriate comments. <br>
+The purpose of the app is for me to demonstrate my ability to work with APIs within a well designed App.
 
-## Available Scripts
+### How to test out the app
+Scroll down to the comment section, play out with the API. <br>
+To try out the offensive detection, try to comment: "This music is garbage !" (you can be more imaginative here 😁)
 
-In the project directory, you can run:
+## APIs Description
+### Youtube API
+I used the Youtube Data v3 API to get the video details (Description, number of views, video title, etc...)
+<br> API Documentation: https://developers.google.com/youtube/v3/guides/implementation/videos
 
-### `npm start`
+### ParallelDots API
+ParallelDots API enables the detection of abusive or hateful terms. I am using a POST axios request and get an object response with the detection results.
+<br> Explore more: https://www.paralleldots.com/abusive-content
+<br> API Documentation: https://apis.paralleldots.com/text_docs/index.html?shell#abuse
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Comment Section
+The comments are purposefully hard-coded to keep a level of control on what is being displayed when the app is explored. I do not want bad surprise and it enables me to add a touch of humour. <br>
+If I would have wanted to add real comments, I could have got the data using the same Youtube API.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
