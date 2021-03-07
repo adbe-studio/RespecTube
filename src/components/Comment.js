@@ -1,5 +1,6 @@
 import React from 'react';
 import { DateTime } from 'luxon';
+import Fade from 'react-reveal/Fade';
 
 const Comment = ({ comment }) => {
   const formattedDate = (dateObject) => {
@@ -20,15 +21,19 @@ const Comment = ({ comment }) => {
   };
 
   return (
-    <div className='centerWrapper'>
-      <div className='comment'>
-        <div className='firstLine'>
-          <div className='username'>{comment.userName}</div>
-          <div className='publishedAt'>{formattedDate(comment.postedWhen)}</div>
+    <Fade top>
+      <div className='centerWrapper'>
+        <div className='comment'>
+          <div className='firstLine'>
+            <div className='username'>{comment.userName}</div>
+            <div className='publishedAt'>
+              {formattedDate(comment.postedWhen)}
+            </div>
+          </div>
+          <div className='commentContent'>{comment.commentContent}</div>
         </div>
-        <div className='commentContent'>{comment.commentContent}</div>
       </div>
-    </div>
+    </Fade>
   );
 };
 

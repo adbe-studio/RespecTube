@@ -1,21 +1,24 @@
-.comment {
-  margin-bottom: 20px;
-  border-left: solid 1px #474e68;
-  padding-left: 10px;
-  color: white;
-  width: 80%;
-  max-width: 600px;
-  .firstLine {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1rem;
-    margin: 3px 10px;
-    .publishedAt {
-      margin-left: 10px;
-      color: $darker-font;
+.centerWrapper {
+  .comment {
+    transition: ease;
+    margin-bottom: 20px;
+    border-left: solid 1px #474e68;
+    padding-left: 10px;
+    color: white;
+    width: 80%;
+    max-width: 600px;
+    .firstLine {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 1rem;
+      margin: 3px 10px;
+      .publishedAt {
+        margin-left: 10px;
+        color: $darker-font;
+      }
     }
-  }
-  .commentContent {
-    margin: 10px 3px;
+    .commentContent {
+      margin: 10px 3px;
+    }
   }
 }

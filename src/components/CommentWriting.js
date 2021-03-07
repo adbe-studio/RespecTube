@@ -24,6 +24,7 @@ const CommentWriting = ({
       commentContent: commentInput,
       postedWhen: DateTime.now(),
       id: newId,
+      isNew: true,
     };
     setComments([newComment, ...comments]);
     setCommentInput('');
