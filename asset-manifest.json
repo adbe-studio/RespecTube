@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RespecTube/static/css/main.7420279c.chunk.css",
+    "main.css": "/RespecTube/static/css/main.4e396255.chunk.css",
     "main.js": "/RespecTube/static/js/main.0912e148.chunk.js",
     "main.js.map": "/RespecTube/static/js/main.0912e148.chunk.js.map",
     "runtime-main.js": "/RespecTube/static/js/runtime-main.b1cce859.js",
@@ -8,14 +8,14 @@
     "static/js/2.42ec979c.chunk.js": "/RespecTube/static/js/2.42ec979c.chunk.js",
     "static/js/2.42ec979c.chunk.js.map": "/RespecTube/static/js/2.42ec979c.chunk.js.map",
     "index.html": "/RespecTube/index.html",
-    "static/css/main.7420279c.chunk.css.map": "/RespecTube/static/css/main.7420279c.chunk.css.map",
+    "static/css/main.4e396255.chunk.css.map": "/RespecTube/static/css/main.4e396255.chunk.css.map",
     "static/js/2.42ec979c.chunk.js.LICENSE.txt": "/RespecTube/static/js/2.42ec979c.chunk.js.LICENSE.txt",
     "static/media/loading.643ca93f.gif": "/RespecTube/static/media/loading.643ca93f.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.b1cce859.js",
     "static/js/2.42ec979c.chunk.js",
-    "static/css/main.7420279c.chunk.css",
+    "static/css/main.4e396255.chunk.css",
     "static/js/main.0912e148.chunk.js"
   ]
 }
