@@ -18,6 +18,6 @@ ParallelDots API enables the detection of abusive or hateful terms. I am using a
 <br> API Documentation: https://apis.paralleldots.com/text_docs/index.html?shell#abuse
 
 ## Comment Section
-The comments are purpusefully hard-coded to keep a level of control on what is being displayed when the app is being explored. I do not want bad surprise and it enables to add a touch of humor. <br>
+The comments are purposefully hard-coded to keep a level of control on what is being displayed when the app is being explored. I do not want bad surprise and it enables me to add a touch of humour. <br>
 If I would have wanted to add real comments, I could have got the data using the same Youtube API.
 
