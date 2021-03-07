@@ -3,7 +3,7 @@
 RespecTube is a React app that is imitating a video streaming website but with an abuse-detection system that blocks toxic/inappropriate comments. <br>
 The purpose of the app is for me to demonstrate my ability to work with APIs within a well designed App.
 
-## How to test out the app
+### How to test out the app
 Scroll down to the comment section, play out with the API. <br>
 To try out the offensive detenction: "This music is garbage !" (you can be more imaginative here 😁)
 
