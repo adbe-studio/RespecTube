@@ -1,0 +1,35 @@
+.Btns {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    margin: 5px;
+    margin-left: 0;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 2px;
+    outline: none;
+  }
+  .cancelBtn[blink='1'],
+  .addCommentBtn[blink='2'] {
+    animation: blink 0.2s ease;
+  }
+  .cancelBtn {
+    background: none;
+    border: none;
+    color: #8d93a8;
+    &:hover {
+      background: #474e68;
+      color: white;
+      transition: 0.3s ease;
+    }
+  }
+  .addCommentBtn {
+    border: none;
+    &:hover {
+      background: rgb(84, 45, 255);
+      color: white;
+      transition: 0.3s ease;
+    }
+  }
+}
