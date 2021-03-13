@@ -4,7 +4,7 @@ const CommentAlert = ({ displayAlert }) => {
   return (
     <div className={displayAlert ? 'commentAlert' : 'hide'}>
       <p className='alertText'>
-        <i class='fas fa-radiation' />
+        <i className='fas fa-radiation' />
         Abusive terms detected, your comment was not published
       </p>
     </div>
