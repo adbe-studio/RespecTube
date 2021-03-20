@@ -2,6 +2,7 @@ import React from 'react';
 
 const Signin = ({ setRoute, setIsSignedIn, setUserInput, userInput }) => {
   const onSubmit = () => {
+    // eslint-disable-next-line eqeqeq
     if (!userInput == '') {
       setIsSignedIn(true);
       setRoute('home');
@@ -30,6 +31,7 @@ const Signin = ({ setRoute, setIsSignedIn, setUserInput, userInput }) => {
               className='signIn'
               value='Sign in'
               type='submit'
+              data-testid='submitBtn'
               onClick={onSubmit}
             >
               Sign In

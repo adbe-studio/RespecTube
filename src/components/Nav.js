@@ -16,11 +16,15 @@ const Nav = ({ setRoute, isSignedin, setUserInput }) => {
         </div>
         <div className='login'>
           {isSignedin ? (
-            <span onClick={signOut} className='signOut'>
+            <span onClick={signOut} data-testid='signOut' className='signOut'>
               Sign Out
             </span>
           ) : (
-            <span onClick={() => setRoute('signin')} className='signIn'>
+            <span
+              onClick={() => setRoute('signin')}
+              data-testid='signIn'
+              className='signIn'
+            >
               Sign In
             </span>
           )}
