@@ -1,45 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { DateTime } from 'luxon';
 import { commentHistory } from '../comments';
+import getVideoData from '../services/youtubeAPI';
 
 const VideoDetails = ({ setComments }) => {
   const [videoData, setVideoData] = useState({});
 
   useEffect(() => {
-    const videoId = 'zABG-oJzkJ0';
-    const apiKey = process.env.REACT_APP_YT_API_KEY;
-    const fetchUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&part=statistics&id=${videoId}&key=${apiKey}`;
-
-    const getVideoData = async () => {
-      try {
-        const { data } = await axios.get(fetchUrl);
-        formatApiResponse(data);
-        setVideoData({ ...data.items[0].snippet, ...data.items[0].statistics });
-      } catch (err) {
-        console.error(err);
-      }
+    const getFormattedVideoData = async () => {
+      const data = await getVideoData();
+      setVideoData({ ...data.items[0].snippet, ...data.items[0].statistics });
     };
-    getVideoData();
+
+    getFormattedVideoData();
     setComments(commentHistory);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  const formatApiResponse = (data) => {
-    const numberWithCommas = (x) => {
-      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    };
-
-    // DATE FORMAT
-    const dateObject = DateTime.fromISO(data.items[0].snippet.publishedAt);
-    const newFormat = dateObject.toLocaleString(DateTime.DATE_MED);
-    data.items[0].snippet.publishedAt = newFormat;
-
-    // ADDING COMAS TO THOUSANDS
-    const { viewCount, likeCount, dislikeCount } = data.items[0].statistics;
-    data.items[0].statistics.viewCount = numberWithCommas(viewCount);
-    data.items[0].statistics.likeCount = numberWithCommas(likeCount);
-    data.items[0].statistics.dislikeCount = numberWithCommas(dislikeCount);
-  };
 
   return (
     <div>

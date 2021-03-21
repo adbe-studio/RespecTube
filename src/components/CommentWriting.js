@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import postTextToApi from '../parraleldotsApi';
+import postTextToApi from '../services/parraleldotsApi';
 import { DateTime } from 'luxon';
 import CommentAlert from './CommentAlert';
 import Buttons from './Buttons';
